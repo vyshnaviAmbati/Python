@@ -8,43 +8,35 @@ Example: anotherValidVariable = "Hello"
 Example: valid_variable_123 = 3.14
 Declaration and Initialization of Variables:
 
-python
-Copy code
+
 x = 10
 y = "Hello"
 z = 3.14
 Redeclaring variables in Python:
 
-python
-Copy code
+
 x = 10
 print(x)  # Output: 10
 x = "Hello"
 print(x)  # Output: Hello
 Python Assign Values to Multiple Variables:
 
-python
-Copy code
 a, b, c = 1, 2, 3
 print(a, b, c)  # Output: 1 2 3
 Assigning different values to multiple variables:
 
-python
-Copy code
+
 x, y, z = 5, "Hello", 7.5
 print(x, y, z)  # Output: 5 Hello 7.5
 Can We Use the Same Name for Different Types?
 
-python
-Copy code
+
 x = 10
 print(x)  # Output: 10
 x = "Hello"
 print(x)  # Output: Hello
 What is variable interpolation in Python?
 
-python
-Copy code
 name = "John"
 greeting = f"Hello, {name}"
 print(greeting)  # Output: Hello, John
